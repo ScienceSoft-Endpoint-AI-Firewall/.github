@@ -27,10 +27,10 @@ request leaves the machine**.
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/detect.svg" width="72" alt=""><br><b>Detect</b><br><sub>Names, contact details, account and ID numbers, health data and secrets — patterns, a named-entity model, OCR for images.</sub></td>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/mask.svg" width="72" alt=""><br><b>Mask</b><br><sub>The AI service receives the prompt with those values replaced. The original text is not sent to the vendor.</sub></td>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/audit.svg" width="72" alt=""><br><b>Audit</b><br><sub>A tamper-evident audit trail gives IT and compliance evidence that the data was protected.</sub></td>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/fleet.svg" width="72" alt=""><br><b>Fleet policy</b><br><sub>Policy is set once per organisation and distributed to every enrolled device, with a fleet console.</sub></td>
+    <td align="center" valign="top" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/detect.svg" width="72" alt=""><br><b>Detect</b><br><sub>Names, contact details, account and ID numbers, health data and secrets — patterns, a named-entity model, OCR for images.</sub></td>
+    <td align="center" valign="top" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/mask.svg" width="72" alt=""><br><b>Mask</b><br><sub>The AI service receives the prompt with those values replaced. The original text is not sent to the vendor.</sub></td>
+    <td align="center" valign="top" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/audit.svg" width="72" alt=""><br><b>Audit</b><br><sub>A tamper-evident audit trail gives IT and compliance evidence that the data was protected.</sub></td>
+    <td align="center" valign="top" width="25%"><img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/fleet.svg" width="72" alt=""><br><b>Fleet policy</b><br><sub>Policy is set once per organisation and distributed to every enrolled device, with a fleet console.</sub></td>
   </tr>
 </table>
 
