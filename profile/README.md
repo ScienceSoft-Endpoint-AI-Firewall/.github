@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.scnsoft.com/artificial-intelligence/firewall">
-    <img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/banner.svg" width="100%" alt="ScienceSoft Endpoint AI Firewall: a prompt typed on the device has the name, email and card number replaced with [PERSON], [EMAIL] and [CREDIT_CARD] before it is sent to the AI service">
+    <img src="https://raw.githubusercontent.com/ScienceSoft-Endpoint-AI-Firewall/.github/main/assets/banner.svg" width="100%" alt="ScienceSoft Endpoint AI Firewall, an animated journey in seven steps: mask personal data, pseudonymise it with realistic stand-ins, block a prompt with a secret, discover unknown AI endpoints, inventory and rate MCP servers and skills, map to OWASP, and the DLP detectors behind it all">
   </a>
 </p>
 
