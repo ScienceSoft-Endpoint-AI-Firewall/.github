@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Mask: replaces the detected value before the prompt leaves the device">
+  <title>Mask</title>
+  <!-- A value is replaced by a token: the raw bar shrinks away and [ ••• ] takes its place. Static frame: masked. -->
+  <style>
+    .raw{transform-box:fill-box;transform-origin:right center;animation:out 4s ease-in-out infinite both}
+    .tok{animation:in 4s ease-out infinite both}
+    .dot{transform-box:fill-box;transform-origin:center;animation:pop 4s ease-out infinite both}
+    .d2{animation-delay:.1s}.d3{animation-delay:.2s}
+    @keyframes out{0%,25%{transform:scaleX(1);opacity:1}40%,90%{transform:scaleX(0);opacity:0}100%{transform:scaleX(1);opacity:1}}
+    @keyframes in{0%,35%{opacity:0}45%,88%{opacity:1}96%,100%{opacity:0}}
+    @keyframes pop{0%,40%{opacity:0;transform:scale(0)}48%{opacity:1;transform:scale(1.4)}54%,88%{opacity:1;transform:scale(1)}96%,100%{opacity:0;transform:scale(0)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.raw{opacity:0}}
+  </style>
+  <rect width="120" height="120" rx="26" fill="#005EB8"/>
+  <rect x="22" y="40" width="24" height="10" rx="5" fill="#FFFFFF" fill-opacity=".85"/>
+  <rect class="raw" x="52" y="40" width="46" height="10" rx="5" fill="#FFFFFF" opacity="0"/>
+  <g class="tok" fill="none" stroke="#FF9A08" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 36h-4v18h4"/><path d="M92 36h4v18h-4"/>
+  </g>
+  <circle class="dot" cx="65" cy="45" r="4" fill="#FF9A08"/>
+  <circle class="dot d2" cx="75" cy="45" r="4" fill="#FF9A08"/>
+  <circle class="dot d3" cx="85" cy="45" r="4" fill="#FF9A08"/>
+  <rect x="22" y="70" width="76" height="8" rx="4" fill="#FFFFFF" fill-opacity=".45"/>
+  <rect x="22" y="86" width="48" height="8" rx="4" fill="#FFFFFF" fill-opacity=".3"/>
+</svg>

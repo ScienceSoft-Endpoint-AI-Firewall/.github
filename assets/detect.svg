@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Detect: finds personal data and secrets in a prompt">
+  <title>Detect</title>
+  <!-- A lens sweeps three lines of text; the value it passes over turns orange. Static frame: value found. -->
+  <style>
+    .lens{animation:sweep 4s ease-in-out infinite both}
+    .hit{animation:hit 4s ease-in-out infinite both}
+    @keyframes sweep{0%{transform:translate(-30px,-20px)}30%{transform:translate(0,-20px)}45%,85%{transform:translate(0,0)}100%{transform:translate(-30px,-20px)}}
+    @keyframes hit{0%,42%{fill:#FFFFFF;fill-opacity:.55}50%,88%{fill:#FF9A08;fill-opacity:1}96%,100%{fill:#FFFFFF;fill-opacity:.55}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="120" height="120" rx="26" fill="#005EB8"/>
+  <rect x="22" y="34" width="76" height="8" rx="4" fill="#FFFFFF" fill-opacity=".55"/>
+  <rect x="22" y="56" width="30" height="8" rx="4" fill="#FFFFFF" fill-opacity=".55"/>
+  <rect class="hit" x="58" y="56" width="40" height="8" rx="4" fill="#FF9A08"/>
+  <rect x="22" y="78" width="56" height="8" rx="4" fill="#FFFFFF" fill-opacity=".55"/>
+  <g class="lens" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+    <circle cx="78" cy="60" r="17" fill="#FFFFFF" fill-opacity=".12"/>
+    <line x1="90" y1="72" x2="102" y2="84"/>
+  </g>
+</svg>

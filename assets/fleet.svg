@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Fleet: the organisation sets policy once and every device enforces it">
+  <title>Fleet policy</title>
+  <!-- One policy, sent to every enrolled device; each device lights up as it applies it. Static frame: all applied. -->
+  <style>
+    .pk{animation:go 3s ease-in infinite both}
+    .p2{animation-delay:.2s}.p3{animation-delay:.4s}
+    .dev{animation:on 3s ease-out infinite both}
+    .v2{animation-delay:.2s}.v3{animation-delay:.4s}
+    @keyframes go{0%{opacity:0;transform:translate(0,0)}10%{opacity:1}45%{opacity:1;transform:translate(var(--dx),var(--dy))}50%,100%{opacity:0;transform:translate(var(--dx),var(--dy))}}
+    @keyframes on{0%,42%{fill:#FFFFFF;fill-opacity:.12}52%,92%{fill:#FF9A08;fill-opacity:1}100%{fill:#FFFFFF;fill-opacity:.12}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.pk{opacity:0}}
+  </style>
+  <rect width="120" height="120" rx="26" fill="#005EB8"/>
+  <g transform="translate(48,16) scale(1)">
+    <rect width="24" height="28" rx="4" fill="#FFFFFF"/>
+    <rect x="5" y="7" width="14" height="3" rx="1.5" fill="#005EB8"/><rect x="5" y="13" width="10" height="3" rx="1.5" fill="#005EB8"/><rect x="5" y="19" width="12" height="3" rx="1.5" fill="#005EB8"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-opacity=".35" stroke-width="2" stroke-dasharray="3 4">
+    <line x1="60" y1="46" x2="24" y2="80"/><line x1="60" y1="46" x2="60" y2="80"/><line x1="60" y1="46" x2="96" y2="80"/>
+  </g>
+  <g fill="#FFFFFF">
+    <circle class="pk" cx="60" cy="46" r="3.5" opacity="0" style="--dx:-36px;--dy:34px"/>
+    <circle class="pk p2" cx="60" cy="46" r="3.5" opacity="0" style="--dx:0px;--dy:34px"/>
+    <circle class="pk p3" cx="60" cy="46" r="3.5" opacity="0" style="--dx:36px;--dy:34px"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round">
+    <rect class="dev" x="12" y="82" width="24" height="16" rx="3" fill="#FF9A08"/>
+    <rect class="dev v2" x="48" y="82" width="24" height="16" rx="3" fill="#FF9A08"/>
+    <rect class="dev v3" x="84" y="82" width="24" height="16" rx="3" fill="#FF9A08"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"><line x1="8" y1="102" x2="40" y2="102"/><line x1="44" y1="102" x2="76" y2="102"/><line x1="80" y1="102" x2="112" y2="102"/></g>
+</svg>
